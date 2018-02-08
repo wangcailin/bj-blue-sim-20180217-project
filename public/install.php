@@ -19,7 +19,6 @@ define('APP_PATH', ROOT_PATH . 'application' . DS);
 
 // 安装包目录
 define('INSTALL_PATH', APP_PATH . 'admin' . DS . 'command' . DS . 'Install' . DS);
-var_dump(123123);die;
 // 判断文件或目录是否有写的权限
 function is_really_writable($file)
 {
