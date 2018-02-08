@@ -13,13 +13,5 @@
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/../application/');
 
-// 判断是否安装FastAdmin
-if (!is_file(APP_PATH . 'admin/command/Install/install.lock'))
-{
-    var_dump(123);die;
-    header("location:./install.php");
-    exit;
-}
-
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';
